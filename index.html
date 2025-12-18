@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varia Viktoriin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <div id="progress-bar"></div>
+        <div id="game-status">Tase: <span id="level-display">Algaja</span></div>
+        <div id="question-container">
+            <h2 id="question-text">Küsimus ilmub siia</h2>
+            <div id="answer-buttons" class="btn-grid"></div>
+        </div>
+        <div id="feedback" class="hide">
+            <p id="explanation-text"></p>
+            <button id="next-btn" class="next-button">Järgmine</button>
+        </div>
+    </div>
+
+    <script src="data/beginner.js"></script>
+    <script src="data/medium.js"></script>
+    <script src="data/expert.js"></script>
+    
+    <script src="script.js"></script>
+</body> </html>
